@@ -121,5 +121,5 @@ The header file declares several function prototypes for the shell program, incl
 
 ## CONTRIBUTORS 
 
-- [Mohammed Ayoub ESSBAI](https://github.com/ayoub22222222)
-- [Zineb ZID](https://github.com/Zinebb12) 
+- [**Mohammed Ayoub ESSBAI**](https://github.com/ayoub22222222)
+- [**Zineb ZID**](https://github.com/Zinebb12) 
