@@ -118,4 +118,8 @@ The header file declares several function prototypes for the shell program, incl
 - _strstr(): searches for the first occurrence of a substring
 
 - _strspn(): gets the length of a prefix substring
- 
+
+## CONTRIBUTORS 
+
+- [Mohammed Ayoub ESSBAI](https://github.com/ayoub22222222)
+- [Zineb ZID](https://github.com/Zinebb12) 
