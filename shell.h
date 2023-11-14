@@ -19,5 +19,5 @@ struct sh_st
 };
 typedef struct sh_st shl;
 extern shl programe;
-void helper(char *user_input, char *av);
+void helper(char *input, char *av);
 #endif

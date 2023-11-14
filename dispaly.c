@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 			free(input);
 			exit(programe.status);
 		}
-		user_input[read - 1] = '\0';
+		input[read - 1] = '\0';
 		helper(input, argv[0]);
 	}
 }
