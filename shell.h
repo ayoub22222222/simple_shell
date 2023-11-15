@@ -26,4 +26,5 @@ int builtin_handler(char **arr, char *input);
 int ve_sl(char *executable_holder);
 void helper(char *user_input, char *av);
 char *update_buf(char *s);
+void rtn_str(char *s);
 #endif
