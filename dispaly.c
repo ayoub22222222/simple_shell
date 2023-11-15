@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 	size_t lenght;
 	ssize_t read;
 
-	void(argc);
+	(void)(argc);
 	programe.name = argv[0];
 	input = NULL;
 	lenght = 0;
