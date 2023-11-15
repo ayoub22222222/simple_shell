@@ -19,5 +19,11 @@ struct sh_st
 };
 typedef struct sh_st shl;
 extern shl programe;
-void helper(char *input, char *av);
+char **p_argument(char *user_input, char *delim);
+void start_cmd(char **arr, char *av);
+int ve_cmd(char *executable);
+int builtin_handler(char **arr, char *input);
+int ve_sl(char *executable_holder);
+void helper(char *user_input, char *av);
+char *update_buf(char *s);
 #endif
