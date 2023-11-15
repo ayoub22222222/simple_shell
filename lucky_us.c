@@ -1,20 +1,40 @@
 #include "shell.h"
 /**
- * rtn_str - function that take one param
- * @s: argument pointer
- * Return: return the given string
+ * prompt - function that take no argument
+ * Return: mimic the prompt behivor
 */
-void rtn_str(char *s)
-{
-	int cnt;
-	char character;
 
-	cnt = 0;
-	while (s[cnt])
-	{
-		character = s[cnt];
-		write(1, &character, 1);
-		cnt++;
-	}
-	write(1, "\n", 1);
+
+void prompt(void)
+{
+	printf("#cisfun$ ");
+	fflush(stdout);
 }
+
+/**
+ * main - entry point helps us to preform the prompt
+ * Return: return the prompte
+*/
+
+
+int main(void)
+{
+	char command[MAX];
+
+	while (1)
+	{
+	prompt();
+
+
+	if (fgets(command, sizeof(command), stdin) == NULL)
+	{
+	printf("\n");
+	break;
+	}
+	command[strcspn(command, "\n")] = '\0';
+
+	printf("You entered: %s\n", command);
+	}
+	return (0);
+}
+
