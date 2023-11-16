@@ -1,3 +1,5 @@
+#include "shell.h"
+
 /**
  * _itoa - integer to ascii
  * @num: num
